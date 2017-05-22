@@ -3,108 +3,122 @@
     "lessons":[
         {
             "lessonName":"计算机组成原理",
-            "teacher":"何一一",
+            "teacher":"张三",
             "book":"https://img3.doubanio.com/lpic/s4411273.jpg",
             "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
             "students":"111,222"
         },
          {
-            "lessonName":"计算机组成原理",
-            "teacher":"何一一",
-            "book":"https://img3.doubanio.com/lpic/s4411273.jpg",
-            "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室,每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
-            "students":"111,2223"
-        },
-         {
-            "lessonName":"计算机组成原理",
-            "teacher":"何一一",
-            "book":"https://img3.doubanio.com/lpic/s4411273.jpg",
+            "lessonName":"算法分析与设计",
+            "teacher":"李四",
+            "book":"https://imgsa.baidu.com/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=42c122a3b3de9c82b268f1dd0de8eb6f/3ac79f3df8dcd1006a383ebb728b4710b8122f80.jpg",
             "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室,每周一3、4节课在03-118教室，每周三5,6节课在03-316教室，每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
             "students":"111,2224"
         },
          {
-            "lessonName":"计算机组成原理",
-            "teacher":"何一一",
-            "book":"https://img3.doubanio.com/lpic/s4411273.jpg",
+            "lessonName":"操作系统",
+            "teacher":"王五",
+            "book":"https://imgsa.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=c6b6edb61ed5ad6ebef46cb8e0a252be/78310a55b319ebc4a3e8a0eb8726cffc1e17162b.jpg",
+            "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室,每周一3、4节课在03-118教室，每周三5,6节课在03-316教室，每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
+            "students":"111,2224"
+        },
+         {
+            "lessonName":"数据结构",
+            "teacher":"陆六",
+            "book":"https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=0addf6b7f403738dca470470d272db34/5882b2b7d0a20cf4827177c874094b36adaf99c0.jpg",
             "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
             "students":"111,2225"
         },
          {
-            "lessonName":"计算机组成原理",
-            "teacher":"何一一",
-            "book":"https://img3.doubanio.com/lpic/s4411273.jpg",
-            "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
-            "students":"111,2226"
+            "lessonName":"软件工程",
+            "teacher":"赵七",
+            "book":"https://imgsa.baidu.com/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=bf05241bd058ccbf0fb1bd6878b1d75b/f9dcd100baa1cd117e50ff89b812c8fcc2ce2db0.jpg",
+            "info":"每周一3、4节课在03-118教室，每周三5,6节课在03-316教室,每周一3、4节课在03-118教室，每周三5,6节课在03-316教室",
+            "students":"111,2223"
         }
     ],
     "works": [
         {
             "title": "编写一个基于UML的超市管理系统，具体实现过程详细记录下来具体实现过程详细记录下来",
+            "teacher":"张三",
             "date": "2017-3-20",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
         {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-19",
             "image":  "http://d.ifengimg.com/w260_h183/p3.ifengimg.com/a/2017_08/10da103188212d6_size17_w400_h240.jpg",
         },
        {
             "title": "编写一个基于UML的超市管理系统，具体实现过程详细记录下来具体实现过程详细记录下来",
+            "teacher":"张三",
             "date": "2017-3-18",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-17",
             "image":  "http://d.ifengimg.com/w260_h183/p3.ifengimg.com/a/2017_08/10da103188212d6_size17_w400_h240.jpg",
         },
        {
             "title": "编写一个基于UML的超市管理系统，具体实现过程详细记录下来具体实现过程详细记录下来",
+            "teacher":"张三",
             "date": "2017-3-16",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-13",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
         {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-12",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统，具体实现过程详细记录下来具体实现过程详细记录下来",
+            "teacher":"张三",
             "date": "2017-3-11",
             "image":  "http://d.ifengimg.com/w260_h183/p3.ifengimg.com/a/2017_08/10da103188212d6_size17_w400_h240.jpg",
         },
       {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-10",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-9",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-7",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
         {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-5",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-3",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         },
        {
             "title": "编写一个基于UML的超市管理系统",
+            "teacher":"张三",
             "date": "2017-3-1",
             "image":  "http://d.ifengimg.com/w260_h183/p1.ifengimg.com/cmpp/2017/04/18/c708d1284ae8e2c762bfcd9bccc66865_size104_w260_h183.bmp",
         }

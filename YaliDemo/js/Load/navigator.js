@@ -1,8 +1,3 @@
-/*
-实现功能：封装导航器初始化设置
-
-包含组件：Navigator
- */
 import React,{Component} from 'react';
 import{
   AppRegistry,
@@ -13,17 +8,21 @@ import{
   Navigator
 } from 'react-native';
 
-export default class Navigation extends Component{
+import Main from './main';
+
+class navigator extends Component {
   constructor(props){
     super(props);
-    const defaultName='';
-    const defaultcomponent=this.props.component;
+    
   }
 
+
   render() {
+    let defaultName='Main';
+    let defaultComponent=Main;
     return (
       <Navigator 
-       initialRoute={{name:defaultName,component:defaultcomponent}}
+       initialRoute={{name:defaultName,component:defaultComponent}}
        configureScene = {(route) => {
           return Navigator.SceneConfigs.VerticalDownSwipeJump;
         }}
@@ -38,4 +37,4 @@ export default class Navigation extends Component{
   
 }
 
-module.exports=Navigation;
+module.exports=navigator;
