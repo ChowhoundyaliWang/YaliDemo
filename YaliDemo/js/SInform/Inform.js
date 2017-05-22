@@ -21,7 +21,6 @@ import InformPage from './InformPage';
 设置ListView数据源：
 将dataSource对象设置为state属性，ListView会根据数据源进行渲染
  */
-
 class Inform extends Component {
   //初始化模拟数据
   constructor(props) {
@@ -32,10 +31,9 @@ class Inform extends Component {
     this.state = {
       //设置dataSource时，不直接使用提供的原始数据，使用cloneWithRows对数据源进行复制
       //使用复制后的数据源实例化ListView,优势：当原始数据发生变化时，ListView组件的dataSource不会改变
-      dataSource: ds.cloneWithRows(informs)
+      dataSource: ds.cloneWithRows([])
     };
   }
-
   _pressPush(){
     //推出下一级页面
     const {navigator}=this.props;
@@ -46,8 +44,6 @@ class Inform extends Component {
     })
    }
   }
-
-
   _renderRow(inform){
     return(
       <TouchableOpacity onPress={this._pressPush.bind(this)}>
@@ -88,6 +84,18 @@ class Inform extends Component {
          initialListSize={10}
         />
     );
+  }
+
+
+  componentDidMount(){
+    const url = 'http://10.176.128.255:3000/task';
+
+    fetch(url)
+      .then(res => res.json())
+      .then(json => {
+        const data = json.data;
+        console.log(json);
+      })
   }
 
 }

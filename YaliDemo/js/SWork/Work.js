@@ -32,7 +32,7 @@ class Work extends Component {
     this.state = {
       //设置dataSource时，不直接使用提供的原始数据，使用cloneWithRows对数据源进行复制
       //使用复制后的数据源实例化ListView,优势：当原始数据发生变化时，ListView组件的dataSource不会改变
-      dataSource: ds.cloneWithRows(works)
+      dataSource: ds.cloneWithRows([])
     };
   }
   
@@ -49,13 +49,14 @@ class Work extends Component {
 
 
   _renderRow(work){
+    const time = new Date(work.time).toLocaleDateString();
     return(
       <TouchableOpacity onPress={this._pressPush.bind(this)}>
         <View style={styles.row}>
-            <Text style={styles.title} numberOfLines={2}>{work.title}</Text>
+            <Text style={styles.title} numberOfLines={2}>{work.content}</Text>
             <View style={styles.bottomContainer}>
-              <Text style={styles.fabu}>{work.teacher}老师</Text>
-              <Text style={styles.fabu}>发布于 {work.date}</Text>
+              <Text style={styles.fabu}>{work.username}老师</Text>
+              <Text style={styles.fabu}>发布于 {time}</Text>
             </View>
         </View>
       </TouchableOpacity>
@@ -88,6 +89,19 @@ class Work extends Component {
          initialListSize={10}
         />
     );
+  }
+
+  componentDidMount(){
+    const url = 'http://10.176.128.255:3000/task';
+
+    fetch(url)
+      .then(res => res.json())
+      .then(json => {
+        const data = json.data;
+        this.setState({
+          dataSource:this.state.dataSource.cloneWithRows(data)
+        })
+      })
   }
 
 }
